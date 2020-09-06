@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		@font-face {
+			font-family: harry potter;
+			src: url(10467.ttf);
+		}
+		@font-face {
+			font-family: spb;
+			src:url(18162);
+		}
+		@font-face {
+			font-family: mandy;
+			src:url(18117);
+		}
+		.ff {
+			font-family: harry potter;
+		}
+		.fspb {
+			font-family: spb;
+		}
+		.ffm {
+			font-family: mandy;
+		}
+		.board {
+			width: 1500px; 
+			display: flex; 
+			margin-left: auto; 
+			margin-right: auto; 
+		}
+		.bg {
+			background-color: yellow;
+		}
+		.container {
+			width: 1300px; 
+			height: 2000px; 
+			margin-left:200px;
+		}
+		.high {
+			height: 50px;
+			background-color: #4d5357;
+			display: flex;
+		}
+		.logo {
+			width: 40px;
+		}
+		.search {
+			width: 200px;
+			height: 30px;
+			margin-left: auto;
+			background-color: white;
+			display: flex;
+			margin-top: 8px;
+		}
+		.input{
+			border: none;
+			outline: none;
+		}
+		.btn {
+			height: 30px;
+			width: 30px;
+			background: url(lupa.png);
+			background-size: 100% 100%;
+			margin-left: auto;
+		}
+		.bg-img {
+			width: 1300px;
+			height: 270px;
+			background-image: url(zdanie.jpg);
+			background-size: 100% 100%;
+			font-family: harry potter;
+			padding-top: 230px;
+			font-size: 60px;
+			text-align: center;
+		}
+		.infobox {
+			width: 480px; 
+			height: 120px; 
+			margin-left: auto;
+		}
+		.infotext {
+			font-family: Arial; 
+			font-size: 20px; 
+			text-align: right; 
+			margin-right: 20px; 
+			color: #d6d6d6;
+		}
+		.faculty {
+			width: 325px;
+		}
+		.nav {
+			width: 200px;
+			background-color: #292929;
+			top: 0px;
+			position: fixed;
+		}
+		.hogw-img {
+			width: 200px;
+		}
+		.dlinks {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.ml10 {
+			margin-left: 10px;
+		}
+		.ml {
+			margin-left: auto;
+		}
+		.mt20 {
+			margin-top: 20px;
+		}
+		.mt15 {
+			margin-top: 15px;
+		}
+		.c-light {
+			color: #d6d6d6;
+		}
+		.bg-dark {
+			background-color: #292929;
+		}
+		.bg-gray {
+			background-color: #4d5357;
+		}
+		.bg-red {
+			background-color: red
+		}
+		.bg-green {
+			background-color: green
+		}
+		.bg-blue {
+			background-color: #398ebf
+		}
+		.bg-yellow {
+			background-color: yellow
+		}
+		.border {
+			border: 1px solid black;
+		}
+		.dflex {
+			display: flex;
+		}
+		.textcenter {
+			text-align: center;
+		}
+		.x {
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.fw {
+			font-weight: bold;
+		}
+		.fs {
+			font-size: 30px;
+		}
+		.fs20 {
+			font-size: 20px;
+		}
+		.fs50 {
+			font-size: 50px;
+		}
+		.borderr {
+			border-bottom: 3px solid red;
+		}
+		.td {
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<div class="board bg-dark">
+		<div class="bg container">
+			<div class="high dflex">
+				<img src="hogw.png" class="logo ml10">
+				<p class="ml10 ff fs20">Хогвартс</p>
+				<div class="mt15 ml td">Поступление</div>
+				<div class="mt15 ml td">Ученики</div>
+				<div class="mt15 ml td">Преподаватели</div>
+				<div class="search">
+					<input type="search" class="input">
+					<button class="btn"></button>
+				</div>
+			</div>
+			<div class="bg-img">
+				Школа Чародейства и Волшебства Хогвартс
+				<div class="infobox">
+					<p class="infotext">Hogwarts School of Witchcraft and Wizardry — учебное заведение волшебников, живущих в Великобритании и Ирландии.</p>
+				</div>
+			</div>
+			<div class="fw fs50 ff borderr bg-dark">Факультеты</div>
+			<div class="dflex">
+				<div class="faculty border textcenter bg-gray">
+					<p class="fw fs ff bg-red">Гриффиндор</p>
+					<p><img src="Gryffindor.png"></p>
+					<p>Гриффиндор — отличительные качества учеников этого факультета: храбрость, честь, благородство. Талисман — лев, цвета — алый и золотой. Декан — преподаватель трансфигурации Минерва Макгонагалл. Привидение — Почти Безголовый Ник. Основатель — Годрик Гриффиндор. Согласно Роулинг, Гриффиндор соответствует стихии огня.</p>
+				</div>
+				<div class="faculty border textcenter bg-gray">
+					<p class="fw fs ff bg-green">Слизерин</p>
+					<p><img src="Slytherin_.png"></p>
+					<p>Слизерин — ценит хитрость, честолюбие, решительность, находчивость. Книга также позволяет предположить, что для слизеринцев характерна жажда власти. Салазар Слизерин также определял учеников чаще по чистоте крови. Талисман Слизерина — змея, цвета — зелёный и серебристый. Декан — Северус Снегг, профессор зельеварения. Согласно Роулинг, Слизерин соответствует стихии воды.</p>
+				</div>
+				<div class="faculty border textcenter bg-gray">
+					<p class="fw fs ff bg-blue">Когтевран</p>
+					<p><img src="Ravenclaw1.png"></p>
+					<p>Когтевран — ценит ум, творчество, остроумие и мудрость. Популярная когтевранская пословица гласит: «ума палата дороже злата». Талисман — ворон, цвета — синий и бронзовый. Декан — профессор заклинаний Филиус Флитвик. Привидение — Серая Дама, Елена Когтевран, дочь Кандиды. Основатель — Кандида Когтевран. Когтевран соответствует стихии воздуха.</p>
+				</div>
+				<div class="faculty border textcenter bg-gray">
+					<p class="fw fs ff bg-yellow">Пуффендуй</p>
+					<p><img src="Hufflepuff.png"></p>
+					<p>Пуффендуй — ценит трудолюбие, верность и честность. Талисман — барсук, цвета — канареечно-жёлтый и чёрный. Декан — преподаватель травологии Помона Стебль. Привидение — Толстый Монах. Основатель — Пенелопа Пуффендуй. Согласно Роулинг, Пуффендуй соответствует стихии земли. Факультет находится в подземельях.</p>
+				</div>
+			</div>
+		</div>
+		<div class="nav ff" role="navigation">
+			<img src="hogw.png" class="hogw-img">
+			<p class="ml10 c-light fs">Hogwarts School of Witchcraft and Wizardry</p>
+			<div class="border dlinks fs">Основание школы</div>
+			<div class="border dlinks fs">Помещения замка</div>
+			<div class="border dlinks fs">Управление школой</div>
+			<div class="border dlinks fs">Штат Хогвартса</div>
+			<div class="border dlinks fs">Учебная программа</div>
+		</div>
+	</div>
+</body>
+</html>

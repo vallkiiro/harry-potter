@@ -1,0 +1,50 @@
+.bg-black {
+	background-color: black;
+}
+.bg-red {
+	background-color: red
+}
+.bg-gray2 {
+	background-color: #6f7275
+}
+.bg-img {
+	background-image: url(saby-menyhei-hogwartsinthesnow-final.jpg);
+	background-size: 100% 100%;
+}
+.x {
+	margin-left: auto;
+	margin-right: auto;
+}
+.w-1000 {
+	width: 1000px;
+}
+.bg-blue {
+	background-color: blue;
+}
+.d-flex {
+	display: flex;
+}
+.characters {
+	width: 400px;
+	background-color: #8a919c
+}
+.t-align {
+	text-align: center;
+}
+.imgch {
+	width: 120px;
+}
+.links {
+	margin-left: 200px;
+	text-decoration: underline;
+}
+.hogw {
+	width: 300px;
+	background-color: #6f7275
+}
+.hogw-img {
+	width: 200px;
+}
+.border {
+	border: 1px solid black;
+}
